@@ -29,6 +29,9 @@ studentRoutes(app);
 //Teacher Routes Loading
 const teacherRoutes=require("./routes/teacher.routes");
 teacherRoutes(app);
+//vehicle Routes Loading
+const vehicleRoutes=require("./routes/vehicle.routes ");
+vehicleRoutes(app);
 
 app.listen(port, ()=>{
     console.log("Server is running ..")

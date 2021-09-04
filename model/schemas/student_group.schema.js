@@ -14,6 +14,7 @@ const studentGroupSchema=new mongoose.Schema({
         ref:"coll_group",
         required:true 
     }
+    
 }); 
 /** schema exportation */
 module.exports=studentGroupSchema;

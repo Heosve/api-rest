@@ -22,7 +22,7 @@ const groupSchema=new mongoose.Schema({
     number:{
         type:"Number",
         required:true
-    }
+    },
 }); 
 /** schema exportation */
 module.exports=groupSchema;
